@@ -6,7 +6,7 @@ A deep learning-based recommendation engine that suggests personalized products 
 
 ## 📋 Project Overview
 
-This system learns from user interactions (views, clicks, purchases) to recommend products they might like. Similar to how Netflix recommends movies or Amazon suggests products, this engine uses neural networks to find patterns in user behavior and make intelligent recommendations.
+This system learns from user interactions (views, clicks, purchases) to recommend relevant products. The engine uses neural networks to find patterns in user behavior and make intelligent recommendations.
 
 ---
 
@@ -22,7 +22,7 @@ This system learns from user interactions (views, clicks, purchases) to recommen
 
 ## 🧠 How It Works
 
-The system uses Neural Collaborative Filtering to learn user preferences. It converts user and product IDs into dense embedding vectors, then passes them through multiple neural network layers to predict compatibility scores. Users and products with similar embeddings get higher scores, resulting in personalized recommendations. The model trains on millions of user-product interactions to identify hidden patterns and relationships.
+The system uses Neural Collaborative Filtering to learn user preferences. It converts user and product IDs into dense embedding vectors, then passes them through multiple neural network layers to predict compatibility scores. Users and products with similar embeddings get higher scores, resulting in personalized recommendations. The model is trained on large-scale user-product interaction data to identify hidden patterns and relationships.
 
 ---
 
@@ -81,11 +81,10 @@ python api/app.py
 
 - **Personalized Recommendations** - Unique suggestions for each user based on behavior
 - **Neural Collaborative Filtering** - Deep learning model captures complex patterns
-- **Scalable Architecture** - Handles millions of users and products efficiently
-- **Cold Start Handling** - Recommendations for new users and products
-- **Fast Inference** - Sub-second response time for real-time recommendations
-- **REST API** - Easy integration with any application
-- **Production Ready** - Includes logging, error handling, and monitoring
+- **Designed for Scale** - Works with large user-item interaction datasets
+- **Basic Cold Start Handling** - Initial recommendations for new users and items
+- **Fast Inference** - Sub-second response time for recommendations
+- **REST API** - Easy integration with applications
 
 ---
 
